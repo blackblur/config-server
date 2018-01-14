@@ -1,8 +1,7 @@
 spring:
   jpa:
     hibernate:
-      ddl-auto: create
-  datasource:
+      ddl-auto: update
     url: jdbc:mysql://localhost:3306/distributed-systems
     username: DISY
     password: YSID
